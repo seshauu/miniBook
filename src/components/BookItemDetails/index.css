@@ -1,0 +1,129 @@
+.book-details-bg-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+@media screen and (max-width: 780px) {
+  .book-details-bg-container {
+    padding: 10px;
+  }
+}
+.book-details-card-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.book-details-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 780px) {
+  .book-details-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.book-img {
+  height: 290px;
+  width: 230px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 780px) {
+  .white-card {
+    background-color: white;
+    width: 1140px;
+    margin-top: 50px;
+    height: 700px;
+    border-radius: 8px;
+    padding: 15px;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #334155;
+  font-weight: 600;
+  line-height: 48px;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.rating-con {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 780px) {
+  .rating-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.avg-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  margin-right: 5px;
+}
+.star-icon {
+  color: #fbbf24;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.book-details-rating {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 20px;
+}
+.status-heading {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 500;
+  color: #475569;
+}
+.book-detail-status {
+  color: #0284c7;
+  font-weight: 400;
+}
+.top-rated-books-failure-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.top-rated-failure-btn {
+  font-family: 'Roboto';
+  color: white;
+  background-color: #0284c7;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+.about-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+.about-para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+}

@@ -1,0 +1,15 @@
+.contact-us-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icons {
+  height: 16px;
+  margin-left: 10px;
+}
+.contact-us-heading {
+  font-family: 'Roboto';
+  line-height: 24px;
+  font-size: 16px;
+}

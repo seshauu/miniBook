@@ -1,0 +1,23 @@
+.not-found-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  color: #334155;
+  font-weight: 500;
+}
+.para {
+  color: #475569;
+  font-size: 18px;
+  text-align: center;
+}
+.back-btn {
+  background-color: #0284c7;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+}

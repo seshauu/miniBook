@@ -1,0 +1,80 @@
+.book-itm-list-item {
+  width: 500px;
+}
+@media screen and (max-width: 780x) {
+  .book-itm-list-item {
+    width: auto;
+  }
+}
+.book-item-btn-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+
+.book-item-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.book-item-cover-pic {
+  width: 140px;
+  height: 180px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.book-itm-list-item {
+  margin-left: 100px;
+}
+@media screen and (max-width: 780px) {
+  .book-itm-list-item {
+    margin-left: 0px;
+  }
+}
+.item-details-card-con {
+  margin-top: 20px;
+}
+.book-item-title {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.avg-rating-con {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 780px) {
+  .books-filter-sm {
+    display: none;
+  }
+  .bookshelves-heading-sm {
+    display: none;
+  }
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.avg-rating {
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-right: 10px;
+}
+.star-icon {
+  color: #fbbf24;
+  height: 20px;
+  margin-top: 0px;
+  margin-right: 4px;
+}
+.item-rating {
+  font-size: 12px;
+}
+.status-heading {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.item-status {
+  font-family: 'Roboto';
+  color: #0284c7;
+}

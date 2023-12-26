@@ -1,0 +1,121 @@
+.header-con {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 780px) {
+  .header-con {
+    display: none;
+  }
+}
+
+.tabs-con {
+  margin-right: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.list-item {
+  margin-left: 23px;
+}
+.link {
+  text-decoration: none;
+}
+.header-website-logo {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  .header-website-logo {
+    height: 25px;
+    width: 92px;
+    margin-left: 10px;
+  }
+}
+
+.header-navbar-con {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (min-width: 780px) {
+  .header-navbar-con {
+    display: none;
+  }
+}
+.menu-icon-btn {
+  outline: none;
+  background-color: white;
+  border: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.menu-icon {
+  height: 20px;
+  width: 20px;
+}
+.header-navbar-tab-con {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 780px) {
+  .header-navbar-tab-con {
+    display: none;
+  }
+}
+.home-tab {
+  font-size: 20px;
+  color: #64748b;
+}
+.bookshelves-tab {
+  margin-top: 4px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+@media screen and (max-width: 768px) {
+  .home-tab {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bookshelves-tab {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+.logout-btn {
+  background-color: #0284c7;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Roboto';
+  color: white;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cross-icon-btn {
+  padding-top: 10px;
+  border: none;
+  background-color: white;
+  width: 30px;
+}
+.cross {
+  height: 24px;
+  width: 24px;
+}
+.active-Home {
+  color: #0284c7;
+}
+@media screen and (max-width: 780px) {
+  .active-Home {
+    border-bottom: 1px #0284c7 solid;
+  }
+}
